@@ -1,0 +1,69 @@
+{
+  "species_stats": {
+    "Adelie": {
+      "scanned": 105,
+      "corrupted": 0,
+      "exact_duplicate": 0,
+      "near_duplicate": 0,
+      "retained": 105
+    },
+    "Chinstrap": {
+      "scanned": 105,
+      "corrupted": 0,
+      "exact_duplicate": 0,
+      "near_duplicate": 0,
+      "retained": 105
+    },
+    "Gentoo": {
+      "scanned": 105,
+      "corrupted": 0,
+      "exact_duplicate": 1,
+      "near_duplicate": 2,
+      "retained": 102
+    }
+  },
+  "corrupted_files": [],
+  "exact_duplicates": [
+    {
+      "path": "data\\raw\\Gentoo\\gentoo_068_File_2024_Pygoscelis_papua_papua_-_Esels.jpg",
+      "sha256": "37ea778c29f03f7463fc4e9f718242813e0f50d85becfa23cb6072d9f8416299"
+    }
+  ],
+  "near_duplicates": [
+    {
+      "path": "data\\raw\\Gentoo\\gentoo_066_File_2024_Pygoscelis_papua_papua_-_Esels.jpg",
+      "original_path": "data\\raw\\Gentoo\\gentoo_065_File_2024_Pygoscelis_papua_papua_-_Esels.jpg",
+      "distance": 4
+    },
+    {
+      "path": "data\\raw\\Gentoo\\gentoo_076_File_All_this_could_be_yours_for_the_mea.jpg",
+      "original_path": "data\\raw\\Gentoo\\gentoo_075_File_All_this_could_be_yours_--_for_just.jpg",
+      "distance": 4
+    }
+  ],
+  "total_files_scanned": 315,
+  "total_valid_retained": 312,
+  "split_distribution": {
+    "Adelie": {
+      "test": 16,
+      "train": 73,
+      "val": 16
+    },
+    "Chinstrap": {
+      "test": 16,
+      "train": 74,
+      "val": 15
+    },
+    "Gentoo": {
+      "test": 15,
+      "train": 71,
+      "val": 16
+    }
+  },
+  "split_counts": {
+    "train": 218,
+    "val": 47,
+    "test": 47,
+    "total": 312
+  }
+}

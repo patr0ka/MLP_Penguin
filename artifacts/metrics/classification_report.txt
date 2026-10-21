@@ -1,0 +1,30 @@
+=================================================================
+RELATÓRIO CIENTÍFICO DE AVALIAÇÃO - MODELO CNN + MLP
+=================================================================
+
+Arquivo avaliado: data\splits\test.csv
+Total de amostras de teste: 47
+Acurácia Global: 74.47%
+F1-Score Macro:  0.7413
+
+-----------------------------------------------------------------
+RELATÓRIO DETALHADO POR CLASSE (SCIKIT-LEARN):
+-----------------------------------------------------------------
+              precision    recall  f1-score   support
+
+      Adelie     0.8333    0.6250    0.7143        16
+   Chinstrap     0.7333    0.6875    0.7097        16
+      Gentoo     0.7000    0.9333    0.8000        15
+
+    accuracy                         0.7447        47
+   macro avg     0.7556    0.7486    0.7413        47
+weighted avg     0.7567    0.7447    0.7401        47
+
+
+-----------------------------------------------------------------
+MATRIZ DE CONFUSÃO NUMÉRICA:
+-----------------------------------------------------------------
+                  Adelie   Chinstrap      Gentoo
+      Adelie          10           3           3
+   Chinstrap           2          11           3
+      Gentoo           0           1          14

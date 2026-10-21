@@ -1,0 +1,4 @@
+filename,file_path,predicted_species,confidence,is_low_confidence,warning,prob_adelie,prob_chinstrap,prob_gentoo
+sample_adelie.jpg,data/to_predict/sample_adelie.jpg,Chinstrap,0.8105,False,,0.1801,0.8105,0.0094
+sample_chinstrap.jpg,data/to_predict/sample_chinstrap.jpg,Chinstrap,0.6194,False,,0.3668,0.6194,0.0138
+sample_gentoo.jpg,data/to_predict/sample_gentoo.jpg,Gentoo,0.8308,False,,0.0774,0.0918,0.8308

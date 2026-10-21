@@ -1,0 +1,46 @@
+{
+  "dataset_split": "test.csv",
+  "sample_count": 47,
+  "overall_accuracy": 0.7446808510638298,
+  "macro_f1": 0.7413210445468511,
+  "per_class": {
+    "Adelie": {
+      "precision": 0.8333333333333334,
+      "recall": 0.625,
+      "f1_score": 0.7142857142857143,
+      "support": 16
+    },
+    "Chinstrap": {
+      "precision": 0.7333333333333333,
+      "recall": 0.6875,
+      "f1_score": 0.7096774193548387,
+      "support": 16
+    },
+    "Gentoo": {
+      "precision": 0.7,
+      "recall": 0.9333333333333333,
+      "f1_score": 0.8,
+      "support": 15
+    }
+  },
+  "confusion_matrix": [
+    [
+      10,
+      3,
+      3
+    ],
+    [
+      2,
+      11,
+      3
+    ],
+    [
+      0,
+      1,
+      14
+    ]
+  ],
+  "checkpoint_evaluated": "artifacts/checkpoints/best_model.pt",
+  "trained_best_epoch": 13,
+  "validation_loss_at_best_epoch": 0.7431311975134179
+}

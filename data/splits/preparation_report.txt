@@ -1,0 +1,24 @@
+============================================================
+RELATÓRIO DE PREPARAÇÃO E SANEAMENTO DO DATASET
+============================================================
+
+Total de arquivos escaneados: 315
+Total de arquivos corrompidos: 0
+Total de duplicatas exatas: 1
+Total de quase-duplicatas:  2
+Total de imagens retidas:   312
+
+------------------------------------------------------------
+ESTATÍSTICAS POR ESPÉCIE:
+------------------------------------------------------------
+Adelie      : Escaneados=105  | Corrompidos=0   | Duplicatas=0   | Retidos=105 
+Chinstrap   : Escaneados=105  | Corrompidos=0   | Duplicatas=0   | Retidos=105 
+Gentoo      : Escaneados=105  | Corrompidos=0   | Duplicatas=3   | Retidos=102 
+
+------------------------------------------------------------
+DISTRIBUIÇÃO DOS SPLITS ESTRATIFICADOS:
+------------------------------------------------------------
+Treino     (70%): 218 imagens
+Validação  (15%): 47 imagens
+Teste      (15%): 47 imagens
+Total            : 312 imagens
